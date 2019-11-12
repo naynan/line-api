@@ -20,114 +20,114 @@ $replyToken = $event['replyToken'];
 // Build message to reply back
 if($text == 'Ub9416c2f0b262e29f616e789841c4ff7'){
 
-$messages = {
+$messages = [
   "type": "flex",
   "altText": "Flex Message",
-  "contents": {
+  "contents": [
     "type": "bubble",
     "direction": "ltr",
-    "body": {
+    "body": [
       "type": "box",
       "layout": "vertical",
       "contents": [
-        {
+        [
           "type": "text",
           "text": "Brown Cafe",
           "size": "xl",
           "weight": "bold"
-        },
-        {
+        ],
+        [
           "type": "box",
           "layout": "vertical",
           "spacing": "sm",
           "margin": "lg",
           "contents": [
-            {
+            [
               "type": "box",
               "layout": "baseline",
               "spacing": "sm",
               "contents": [
-                {
+                [
                   "type": "text",
                   "text": "Place",
                   "flex": 1,
                   "size": "sm",
                   "color": "#AAAAAA"
-                },
-                {
+                ],
+                [
                   "type": "text",
                   "text": "Miraina Tower, 4-1-6 Shinjuku, Tokyo",
                   "flex": 5,
                   "size": "sm",
                   "color": "#666666",
                   "wrap": true
-                }
+                ]
               ]
-            },
-            {
+            ],
+            [
               "type": "box",
               "layout": "baseline",
               "spacing": "sm",
               "contents": [
-                {
+                [
                   "type": "text",
                   "text": "Time",
                   "flex": 1,
                   "size": "sm",
                   "color": "#AAAAAA"
-                },
-                {
+                ],
+                [
                   "type": "text",
                   "text": "10:00 - 23:00",
                   "flex": 5,
                   "size": "sm",
                   "color": "#666666",
                   "wrap": true
-                }
+                ]
               ]
-            }
+            ]
           ]
-        }
+        ]
       ]
-    },
-    "footer": {
+    ],
+    "footer": [
       "type": "box",
       "layout": "vertical",
       "flex": 0,
       "spacing": "sm",
       "contents": [
-        {
+        [
           "type": "button",
-          "action": {
+          "action": [
             "type": "message",
             "label": "ไม่อนุมัติ",
             "text": "no-1"
-          },
+          ],
           "flex": 1,
           "color": "#A59191",
           "height": "sm",
           "style": "primary",
           "gravity": "bottom"
-        },
-        {
+        ],
+        [
           "type": "button",
-          "action": {
+          "action": [
             "type": "message",
             "label": "อนุมัติ",
             "text": "yes-1"
-          },
+          ],
           "flex": 1,
           "style": "primary"
-        }
+        ]
       ]
-    },
-    "styles": {
-      "footer": {
+    ],
+    "styles": [
+      "footer": [
         "separator": true
-      }
-    }
-  }
-};
+      ]
+    ]
+  ]
+];
   
   
 } else {
